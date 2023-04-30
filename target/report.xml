@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="11.312" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Open  Search Engines" name="Google Serach" time="6.872">
+<system-out><![CDATA[
+Given I open "chrome" browser...............................................passed
+When I enter the url  "https://www.google.com"..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Open  Search Engines" name="Serach Engine2" time="3.949">
+<system-out><![CDATA[
+Given I open "chrome" browser...............................................passed
+When I enter the below url..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
