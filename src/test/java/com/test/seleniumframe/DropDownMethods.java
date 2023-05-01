@@ -67,6 +67,9 @@ public class DropDownMethods {
 	{
 		getSelect(element).deselectAll();
 	}
-	
+	public boolean verifyMultiple(WebElement element)
+	{
+		return getSelect(element).isMultiple();
+	}
 	
 }
